@@ -1,0 +1,13 @@
+.text {
+  margin: 1.5rem 0;
+  line-height: 1.4;
+}
+
+.link {
+  color: #0969da;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

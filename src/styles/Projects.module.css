@@ -1,0 +1,26 @@
+.project {
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+}
+
+.project:hover {
+  background-color: whitesmoke;
+  border: 1px solid gainsboro;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.tags {
+  opacity: .7;
+  margin-bottom: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .project:hover {
+    background-color: #302e2e;
+  }
+}
