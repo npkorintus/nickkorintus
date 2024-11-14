@@ -1,0 +1,63 @@
+.container {
+  max-width: 42rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.fadetext {
+  max-width: 42rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+  animation: fadeIn 3s;
+
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+}
+
+.navlink {
+  opacity: 0.7;
+}
+
+.navlink:hover {
+  opacity: 1;
+}
+
+.navlink[data-active] {
+  border-bottom: 1.5px solid black;
+  opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .navlink[data-active] {
+    border-bottom: 1.5px solid white;
+  }
+}
+
+.backToHome {
+  margin: 4rem 0 0;
+}
+
+.homelink:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 3rem;
+  opacity: 0.7;
+}
