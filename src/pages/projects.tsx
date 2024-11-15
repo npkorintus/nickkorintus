@@ -7,19 +7,19 @@ const projects = [
   {
     title: 'URL Shortener',
     desc: 'Implemented a form to integrate with the Clean URI link shortening API and leveraged the Fetch API as well as local storage.',
-    tags: ['React', 'Next.js', 'Fetch API'],
+    tags: ['React', 'Next.js', 'Fetch API', 'Vercel'],
     url: 'https://shortly-one-chi.vercel.app/'
   },
   {
     title: 'Dictionary App',
     desc: 'Integrated with the Dictionary API to create a real-world dictionary web app. Includes color themes and font selection.',
-    tags: ['React', 'Chakra UI', 'Vite'],
+    tags: ['React', 'Chakra UI', 'Vite', 'GitHub Pages'],
     url: 'https://npkorintus.github.io/dictionary-web-app/'
   },
   {
     title: 'Job Listings',
     desc: 'Utilized JavaScript to filter out jobs based on selected categories using data from a local JSON file.',
-    tags: ['React', 'MUI', 'Vite'],
+    tags: ['React', 'MUI', 'Vite', 'Netlify'],
     url: 'https://filterable-job-listings.netlify.app/'
   },
 ];
