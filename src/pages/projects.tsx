@@ -19,9 +19,15 @@ const projects = [
   {
     title: 'Job Listings',
     desc: 'Utilized JavaScript to filter out jobs based on selected categories using data from a local JSON file.',
-    tags: ['React', 'MUI', 'Vite', 'Netlify'],
+    tags: ['React', 'Material UI', 'Vite', 'Netlify'],
     url: 'https://filterable-job-listings.netlify.app/'
   },
+  {
+    title: 'Advice Generator',
+    desc: 'Connected to third-party Advice Slip API using Axios to create an advice generator web app. Fully responsive for multiple device sizes.',
+    tags: ['React', 'MUI Joy', 'Axios', 'GitHub Pages'],
+    url: 'https://npkorintus.github.io/advice-generator-app/'
+  }
 ];
 
 export default function Projects() {
