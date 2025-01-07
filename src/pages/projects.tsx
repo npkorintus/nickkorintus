@@ -24,9 +24,9 @@ const projects = [
   },
   {
     title: 'Advice Generator',
-    desc: 'Connected to third-party Advice Slip API using Axios to create an advice generator web app. Fully responsive for multiple device sizes.',
-    tags: ['React', 'MUI Joy', 'Axios', 'GitHub Pages'],
-    url: 'https://npkorintus.github.io/advice-generator-app/'
+    desc: 'Connected to third-party Advice Slip API using the Fetch API to create an advice generator web app. Fully responsive for multiple device sizes.',
+    tags: ['Astro', 'CSS', 'Fetch API', 'Netlify'],
+    url: 'https://advice-generator-v2.netlify.app'
   }
 ];
 
