@@ -48,7 +48,7 @@ export default function Layout({ children, home }: LayoutProps) {
         </div>
       )}
       <footer className={`${styles.footer} ${montserrat}`}>
-        <small>&copy; 2024 Nick Korintus. Some rights reserved.</small>
+        <small>&copy; 2025 Nick Korintus. Some rights reserved.</small>
       </footer>
     </div>
   );

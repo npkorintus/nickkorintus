@@ -5,6 +5,12 @@ import styles from '@/styles/Projects.module.css';
 
 const projects = [
   {
+    title: 'Space Tourism',
+    desc: 'Built multi-page landing website for a mock space tourism company. Fully responsive, includes a local data.json file for mocking API calls, follows WCAG and ADA compliance guidelines, and leveraged Figma design files.',
+    tags: ['Vue', 'Nuxt.js', 'SCSS', 'Figma', 'Vercel'],
+    url: 'https://nk-space-tourism.netlify.app/'
+  },
+  {
     title: 'URL Shortener',
     desc: 'Implemented a form to integrate with the Clean URI link shortening API and leveraged the Fetch API as well as local storage.',
     tags: ['React', 'Next.js', 'Fetch API', 'Vercel'],
