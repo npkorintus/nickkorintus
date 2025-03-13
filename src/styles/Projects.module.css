@@ -7,11 +7,21 @@
 
 .project:hover {
   background-color: whitesmoke;
-  border: 1px solid gainsboro;
 }
 
 .title {
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project > .title > .link {
+  display: none;
+}
+
+.project:hover > .title > .link {
+  display: block;
 }
 
 .tags {

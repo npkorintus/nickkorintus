@@ -45,7 +45,10 @@ export default function Projects() {
       {projects.map(project => (
         <a key={project.title} href={project.url} target="_blank" rel="noopener noreferrer">
         <div className={styles.project}>
-          <h3 className={styles.title}>{project.title}</h3>
+          <div className={styles.title}>
+            <h3>{project.title}</h3>
+            <img className={styles.link} src='/external-link.svg' width='16' height='16' />
+          </div>
           <p className={styles.tags}>{project.tags.join(" / ")}</p>
           <p>{project.desc}</p>
         </div>
