@@ -1,13 +1,14 @@
 import React from 'react';
 import Head from 'next/head';
 import Layout from '@/components/layout';
+import ThemeImage from '@/components/theme-image';
 import styles from '@/styles/Projects.module.css';
 
 const projects = [
   {
     title: 'Space Tourism',
-    desc: 'Built multi-page landing website for a mock space tourism company. Fully responsive, includes a local data.json file for mocking API calls, follows WCAG and ADA compliance guidelines, and leveraged Figma design files.',
-    tags: ['Vue', 'Nuxt.js', 'SCSS', 'Figma', 'Vercel'],
+    desc: 'Built a multi-page landing website for a mock space tourism company. Fully responsive, includes a local data.json file for mocking API calls, and follows WCAG and ADA compliance guidelines. Developed using Figma design files.',
+    tags: ['Vue', 'Nuxt.js', 'SCSS', 'Netlify'],
     url: 'https://nk-space-tourism.netlify.app/'
   },
   {
@@ -47,7 +48,9 @@ export default function Projects() {
         <div className={styles.project}>
           <div className={styles.title}>
             <h3>{project.title}</h3>
-            <img className={styles.link} src='/external-link.svg' width='16' height='16' />
+            <div className={styles.linkImgWrapper}>
+              <ThemeImage alt='external link' srcDark='/external-link-white.svg' srcLight='/external-link.svg' width='16' height='16' />
+            </div>
           </div>
           <p className={styles.tags}>{project.tags.join(" / ")}</p>
           <p>{project.desc}</p>
