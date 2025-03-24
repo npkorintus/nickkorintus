@@ -1,3 +1,27 @@
+.about {
+  display: grid;
+  grid-template-areas:
+    "img"
+    "intro"
+    "bio"
+  ;
+  align-items: center;
+}
+
+.headshot {
+  grid-area: img;
+  display: flex;
+  margin: 0 auto;
+}
+
+.intro {
+  grid-area: intro;
+}
+
+.bio {
+  grid-area: bio;
+}
+
 .text {
   margin: 1.5rem 0;
   line-height: 1.4;
@@ -10,4 +34,17 @@
 
 .link:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    grid-template-areas:
+      "intro intro img"
+      "bio bio bio"
+    ;
+  }
+
+  .headshot {
+    margin-left: 1.25rem;
+  }
 }
