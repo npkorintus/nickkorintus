@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styles from './layout.module.css';
 import { merriweather, montserrat } from '@/fonts';
+import Image from 'next/image';
 
 const name = 'Nick Korintus';
 export const siteTitle = `${name} Portfolio Website`;
@@ -15,6 +16,7 @@ type LayoutProps = {
 export default function Layout({ children, home }: LayoutProps) {
   const pathname = usePathname().slice(1);
   // console.log(pathname)
+  const YEAR = new Date().getFullYear();
 
   return (
     <div className={`${home && styles.fadetext} ${styles.container} ${merriweather.className}`}>
@@ -48,7 +50,12 @@ export default function Layout({ children, home }: LayoutProps) {
         </div>
       )}
       <footer className={`${styles.footer} ${montserrat}`}>
-        <small>&copy; 2025 Nick Korintus. Some rights reserved.</small>
+        <small className={styles.copyright}>&copy; {YEAR} Nick Korintus</small>
+        <div className={styles.socialLinks}>
+          <a href="https://github.com/npkorintus" target="_blank"><Image src="/github.svg" height={18} width={18} alt="Github icon" /></a>
+          <a href="https://www.linkedin.com/in/nick-korintus/" target="_blank"><Image src="/linkedin.svg" height={18} width={18} alt="LinkedIn icon" /></a>
+          <a href="mailto:nicholas.korintus@gmail.com" target="_blank"><Image src="/email.svg" height={18} width={18} alt="Email icon" /></a>
+        </div>
       </footer>
     </div>
   );
