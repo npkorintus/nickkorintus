@@ -9,6 +9,7 @@
 }
 
 .headshot {
+  border-radius: 50%;
   grid-area: img;
   display: flex;
   margin: 0 auto;
