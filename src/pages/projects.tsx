@@ -11,35 +11,35 @@ const projects = [
     desc: 'Built a multi-page landing website for a mock space tourism company. Fully responsive, includes a local data.json file for mocking API calls, and follows WCAG and ADA compliance guidelines. Developed using Figma design files.',
     tags: ['Vue', 'Nuxt.js', 'SCSS', 'Netlify'],
     url: 'https://nk-space-tourism.netlify.app/',
-    image: '/projects/space-tourism.png'
+    image: '/projects/space-tourism-md.png'
   },
   {
     title: 'URL Shortener',
     desc: 'Implemented a form to integrate with the Clean URI link shortening API and leveraged the Fetch API as well as local storage.',
     tags: ['React', 'Next.js', 'Fetch API', 'Vercel'],
     url: 'https://shortly-one-chi.vercel.app/',
-    image: '/projects/url-shortener.png'
+    image: '/projects/url-shortener-md.png'
   },
   {
     title: 'Dictionary App',
     desc: 'Integrated with the Dictionary API to create a real-world dictionary web app. Includes color themes and font selection.',
     tags: ['React', 'Chakra UI', 'Vite', 'GitHub Pages'],
     url: 'https://npkorintus.github.io/dictionary-web-app/',
-    image: '/projects/dictionary-app.png'
+    image: '/projects/dictionary-app-md.png'
   },
   {
     title: 'Job Listings',
     desc: 'Utilized JavaScript to filter out jobs based on selected categories using data from a local JSON file.',
     tags: ['React', 'Material UI', 'Vite', 'Netlify'],
     url: 'https://filterable-job-listings.netlify.app/',
-    image: '/projects/job-listings.png'
+    image: '/projects/job-listings-md.png'
   },
   {
     title: 'Advice Generator',
     desc: 'Connected to third-party Advice Slip API using the Fetch API to create an advice generator web app. Fully responsive for multiple device sizes.',
     tags: ['Astro', 'CSS', 'Fetch API', 'Netlify'],
     url: 'https://advice-generator-v2.netlify.app',
-    image: '/projects/advice-generator.png'
+    image: '/projects/advice-generator-md.png'
   }
 ];
 

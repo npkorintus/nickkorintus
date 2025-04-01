@@ -13,7 +13,7 @@ export default function About() {
       <section className={styles.about}>
         <Image
           priority
-          src="/profile.jpg"
+          src="/profile-md.jpg"
           className={styles.headshot}
           height={200}
           width={200}
